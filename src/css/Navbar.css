@@ -70,20 +70,20 @@ h1 {
     }
 
     .nav-list-active {
-        position: absolute;
+        position: fixed; /* positions: absolute*/
         top: 8vh;
         right: 0;
         width: 50vw;
         height: 92vh;
         flex-direction: column;
         background-color: rgb(229, 231, 231);
-        align-items: center;
-        justify-content: space-around; 
         transform: translateX(0%);
         transition: transform 0.3s ease-in; 
-        display: inline-block;
-        overflow-x: hidden;        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
+
     .nav-list li {
         margin-left: 0;
         opacity: 1;
@@ -93,6 +93,29 @@ h1 {
     .mobile-menu {
         display: block;
         
+    }
+
+    .line1 {
+        transition: .3s;
+    }
+    .line2 {
+        transition: .3s;
+    }
+    .line3 {
+        transition: .3s;
+    }
+
+    .line1change {
+        transform: rotate(-45deg) translate(-8px, 8px);
+        transition: .3s;
+    }
+    .line2change {
+        opacity: 0;
+        transition: .3s;
+    }
+    .line3change {
+        transform: rotate(45deg) translate(-5px, -7px);
+        transition: .3s;
     }
 }
 

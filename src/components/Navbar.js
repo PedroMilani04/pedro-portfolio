@@ -14,9 +14,9 @@ function Navbar() {
             <nav>
                 <h1> <a href="#">Pedro</a> </h1>
                 <div className="mobile-menu"  onClick={handleClick}>
-                    <div className="line1" />
-                    <div className="line2" />
-                    <div className="line3" />
+                    <div className={isActive ? 'line1change' : 'line1'} />
+                    <div className={isActive ? 'line2change' : 'line2'} />
+                    <div className={isActive ? 'line3change' : 'line3'} />
                 </div>
                 <ul className={isActive ? 'nav-list-active' : 'nav-list'}>
                     <li><a href="#">Home</a></li>
