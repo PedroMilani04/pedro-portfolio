@@ -49,6 +49,8 @@ h1 {
     height: 2px;
     background-color: black;
     margin: 8px;
+    transition: .3s;
+    position: sticky
 }
 
 @media(max-width: 425px) {
@@ -95,15 +97,7 @@ h1 {
         
     }
 
-    .line1 {
-        transition: .3s;
-    }
-    .line2 {
-        transition: .3s;
-    }
-    .line3 {
-        transition: .3s;
-    }
+    
 
     .line1change {
         transform: rotate(-45deg) translate(-8px, 8px);
