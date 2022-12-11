@@ -1,0 +1,108 @@
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+
+.aboutall {
+    margin-top: 35vh;
+    margin-bottom: 45vh;
+    justify-content: center;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutme {
+    font-size: 3rem;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.intro {
+    font-size: 1.3rem;
+    color: rgb(80, 79, 79);
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.summary {
+    font-size: 1.5rem;
+    color: rgb(80, 79, 79);
+}
+
+.image {
+    width: 850px;
+    height: 300px;
+    background-color: black;
+    margin-right: 5vw;
+}
+
+.personalinfo {
+    display: flex;
+}
+
+.personalinfochild {
+    width: 55vw;
+    margin-right: 5vw;
+}
+
+.cards {
+    display: flex;
+    margin-top: 2.5vh;
+    justify-content: space-between;
+}
+
+
+.cv {
+    
+    margin-top: 3vh;
+    position: relative;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    border-radius: 0.8em;
+    border: none;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: ghostwhite;
+    overflow: hidden;
+   }
+   
+  
+   
+   .cv span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8em 1.2em 0.8em 1.05em;
+   }
+   
+   .cv::before,
+   .cv::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
+   
+   .cv::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+   
+   .cv:hover::before {
+    transform: translate3d(100%, 0, 0);
+   }
+   
+   .cv:active {
+    transform: scale(0.95);
+   }

@@ -5,6 +5,7 @@
     position: sticky;
 }
 
+
 nav {
     background-color: rgb(229, 231, 231);
     height: 8vh;
@@ -54,9 +55,10 @@ h1 {
     position: sticky
 }
 
+
 @media(max-width: 425px) {
     
-  
+   
     .nav-list {
         position: absolute;
         top: 8vh;
@@ -114,10 +116,3 @@ h1 {
     }
 }
 
-@media(max-width: 375px) {
-    
-}
-
-@media(max-width: 320px) {
-    
-}

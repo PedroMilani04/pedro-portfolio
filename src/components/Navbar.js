@@ -5,7 +5,6 @@ function Navbar() {
     const [isActive, setIsActive] = useState(false);
 
     function handleClick() {
-        // 👇️ toggle isActive state on click
         setIsActive(isActive => !isActive);
       };
 

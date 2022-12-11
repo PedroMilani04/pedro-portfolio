@@ -1,8 +1,10 @@
+
 .info {
     display: flex;
-    margin-top: 16vh;
+    margin-top: 22vh;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
+   
 }
 
 .img {
@@ -35,6 +37,7 @@
 }
 
 .clickme {
+    
     margin-top: 3vh;
     position: relative;
     font-family: inherit;
@@ -105,6 +108,7 @@
     .info {
         flex-direction: column-reverse;
         margin: 10%;
+        
     }
 
     .info1 {
@@ -119,6 +123,13 @@
         margin-left: 15%;
         margin-bottom: 5vh;
     }
+
+    .infodown {
+        margin-top: 170%;
+        flex-direction: column;
+    }
+    
+    
    }
 
    @media(max-width: 375px) {
@@ -132,6 +143,15 @@
 
     .about {
         font-size: .9rem;
+    }
+
+    
+    .img {
+        margin-left: 10%;
+    }
+
+    .clickme {
+        margin-left: 22.5%;
     }
    }
 
@@ -152,5 +172,7 @@
         font-size: 3rem;
     }
 
-    
+    .clickme {
+        margin-left: 11%;
+    }
    }

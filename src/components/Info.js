@@ -1,6 +1,7 @@
 import "../css/Info.css"
 
 function Info() {
+    
     return (
         <div className="info">
             <div className="info1">
