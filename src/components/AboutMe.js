@@ -11,7 +11,7 @@ export default function AboutMe() {
             <div className="personalinfo">
             <div className="image"></div>
             <div className="personalinfochild">
-                <div className="summary"> loremaaaaaaaaaaaaaaaaaaaaaasaosuhaoushaoh isoashioaushoiaushoai hsaoishuaoishaioush oiuahsoiuahsiouahsiaouhs ioauhiosuah </div>
+                <div className="summary"> pedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedropedro </div>
                 <div className="cards">
                     <div className="years">02 years</div>
                     <div className="projects">9 projects</div>

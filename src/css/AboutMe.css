@@ -29,6 +29,8 @@
 .summary {
     font-size: 1.5rem;
     color: rgb(80, 79, 79);
+    
+    word-break: break-all;
 }
 
 .image {
@@ -51,6 +53,13 @@
     display: flex;
     margin-top: 2.5vh;
     justify-content: space-between;
+}
+
+.cards div {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+
 }
 
 
@@ -105,4 +114,53 @@
    
    .cv:active {
     transform: scale(0.95);
+   }
+
+   
+
+   @media(max-width: 1024px) {
+    .aboutall {
+        width: 80%;
+    }
+
+    .image {
+        width: 425px;
+        height: 180px;
+        margin-top: 8vh;
+    }
+   }
+
+   @media(max-width: 768px) {
+    .cards div {
+        width: 70px;
+        height: 70px;
+    }
+   }
+
+   @media(max-width: 425px) {
+    .personalinfo {
+        flex-direction: column;
+        margin-top: -10vh;
+        text-align: center;
+        align-items: center;
+        
+    }
+
+    .personalinfochild {
+        margin-top: 3vh;
+        margin-left: 5%;
+        width: 70vw;
+    }
+
+    .summary {
+        font-size: 1.2rem;
+        
+    }
+   }
+
+   @media(max-width: 375px) {
+    .personalinfochild {
+        margin-left: 6%;
+        width: 70vw;
+    }
    }
