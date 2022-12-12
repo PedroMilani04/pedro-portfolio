@@ -1,7 +1,7 @@
 
 .info {
     display: flex;
-    margin-top: 22vh;
+    margin-top: 30vh;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
    
@@ -91,7 +91,7 @@
    @media(max-width: 768px) {
     .info {
         margin: 5%;
-        margin-top: 20vh;
+        margin-top: 30vh;
     }
 
     .img {

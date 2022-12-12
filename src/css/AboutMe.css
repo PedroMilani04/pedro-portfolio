@@ -5,7 +5,7 @@
 
 
 .aboutall {
-    margin-top: 35vh;
+    margin-top: 42vh;
     margin-bottom: 45vh;
     justify-content: center;
     width: 60%;
@@ -30,7 +30,7 @@
     font-size: 1.5rem;
     color: rgb(80, 79, 79);
     
-    word-break: break-all;
+    word-break: break-word;
 }
 
 .image {
@@ -38,6 +38,7 @@
     height: 300px;
     background-color: black;
     margin-right: 5vw;
+    border-radius: 20px;
 }
 
 .personalinfo {
@@ -58,10 +59,17 @@
 .cards div {
     width: 100px;
     height: 100px;
-    background-color: aliceblue;
-
+    background-color: rgb(229, 231, 231);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
+.number {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 
 .cv {
     
@@ -130,12 +138,16 @@
     }
    }
 
-   @media(max-width: 768px) {
+  @media(max-width: 768px) {
     .cards div {
-        width: 70px;
-        height: 70px;
+        margin-left: 2%;
+        
     }
-   }
+
+    .aboutall {
+        width: 90%;
+    }
+  }
 
    @media(max-width: 425px) {
     .personalinfo {
@@ -156,11 +168,30 @@
         font-size: 1.2rem;
         
     }
+
+    .cards div {
+        margin-left: 2%;
+    }
+
+    .number {
+        font-size: 1.5rem;
+    }
+
+    .image {
+        width: 80%;
+        margin-left: 5%;
+    }
    }
 
    @media(max-width: 375px) {
     .personalinfochild {
         margin-left: 6%;
         width: 70vw;
+    }
+
+    .cards div {
+        margin-left: 2%;
+        font-size: .9rem;
+        word-break: break-word;
     }
    }
