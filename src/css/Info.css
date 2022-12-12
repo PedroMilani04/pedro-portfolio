@@ -108,7 +108,7 @@
     .info {
         flex-direction: column-reverse;
         margin: 10%;
-        
+        margin-top: 12vh;
     }
 
     .info1 {

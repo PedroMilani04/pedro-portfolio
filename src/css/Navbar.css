@@ -59,14 +59,14 @@ h1 {
 }
 
 
-@media(max-width: 425px) {
+@media(max-width: 768px) {
     
    
     .nav-list {
-        position: absolute;
+        position: fixed;
         top: 8vh;
         right: 0;
-        width: 50vw;
+        width: 100vw;
         height: 92vh;
         flex-direction: column;
         background-color: rgb(229, 231, 231);
@@ -74,7 +74,6 @@ h1 {
         justify-content: space-around;  
         transition: transform 0.3s ease-in;
         transform: translateX(100%);
-        
     }
 
     .nav-list-active {
