@@ -1,0 +1,98 @@
+.skillaround {
+    margin-bottom: 45vh;
+}
+.allSkills {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%;
+    margin-right: 17%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skilltitle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.skillname {
+    font-size: 1.5rem;
+    
+}
+
+.percentage {
+    font-size: 1.2rem;
+    color: rgb(80, 79, 79); 
+}
+
+.skill {
+    margin-bottom: 2vh;
+    justify-content: center;   
+}
+
+.percbar, .skillperc {
+    height: 6px;
+    border-radius: .25rem;
+}
+
+.percbar {
+    background-color: #8c8ee7;
+}
+
+.skillperc {
+    display: block;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.skillhtmlpercentage {
+    width: 90%;
+}
+
+.skillcsspercentage {
+    width: 85%;
+}
+
+.skilljspercentage {
+    width: 70%;
+}
+
+.skillreactpercentage {
+    width: 75%;
+}
+
+.skillpythonpercentage {
+    width: 50%;
+}
+
+.skillawspercentage {
+    width: 80%;
+}
+
+.skillsqlpercentage {
+    width: 70%;
+}
+
+.skillnodepercentage {
+    width: 50%;
+}
+
+.skillofficepercentage {
+    width: 85%;
+}
+
+.skillmdpercentage {
+    width: 90%;
+}
+
+.skillphotoshoppercent {
+    width: 55%;
+}
+
+.skillsasspercentage {
+    width: 60%;
+}
+
+.skillenglishpercentage {
+    width: 95%;
+}
