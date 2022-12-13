@@ -9,7 +9,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">HTML5</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">90%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillhtmlpercentage"></span>
@@ -18,7 +18,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">CSS3</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">85%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillcsspercentage"></span>
@@ -27,7 +27,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">JavaScript</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">70%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skilljspercentage"></span>
@@ -36,7 +36,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">ReactJS</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">75%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillreactpercentage"></span>
@@ -45,7 +45,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">Python</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">50%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillpythonpercentage"></span>
@@ -63,7 +63,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">MySQL</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">70%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillsqlpercentage"></span>
@@ -72,7 +72,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">NodeJS</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">50%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillnodepercentage"></span>
@@ -81,7 +81,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">Office 365</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">85%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillofficepercentage"></span>
@@ -90,7 +90,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">Markdown</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">90%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillmdpercentage"></span>
@@ -99,7 +99,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">Photoshop</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">55%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillphotoshoppercent"></span>
@@ -108,7 +108,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">Sass</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">60%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillsasspercentage"></span>
@@ -117,7 +117,7 @@ export default function Skills() {
             <div className="skill">
                 <div className="skilltitle">
                     <h3 className="skillname">English</h3>
-                    <span className="percentage">80%</span>
+                    <span className="percentage">95%</span>
                 </div>
                 <div className="percbar">
                     <span className="skillperc skillenglishpercentage"></span>
