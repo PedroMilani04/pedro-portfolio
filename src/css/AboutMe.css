@@ -71,7 +71,7 @@
     font-weight: 700;
 }
 
-.cv {
+.goto {
     
     margin-top: 3vh;
     position: relative;
@@ -88,7 +88,7 @@
    
   
    
-   .cv span {
+   .goto span {
     position: relative;
     z-index: 10;
     transition: color 0.4s;
@@ -97,8 +97,8 @@
     padding: 0.8em 1.2em 0.8em 1.05em;
    }
    
-   .cv::before,
-   .cv::after {
+   .goto::before,
+   .goto::after {
     position: absolute;
     top: 0;
     left: 0;
@@ -107,7 +107,7 @@
     z-index: 0;
    }
    
-   .cv::before {
+   .goto::before {
     content: "";
     background: #000;
     width: 120%;
@@ -116,11 +116,11 @@
     transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
    }
    
-   .cv:hover::before {
+   .goto:hover::before {
     transform: translate3d(100%, 0, 0);
    }
    
-   .cv:active {
+   .goto:active {
     transform: scale(0.95);
    }
 

@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Info from './Info';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
+import Portfolio from './Portfolio';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Info></Info>
         <AboutMe></AboutMe>
         <Skills></Skills>
+        <Portfolio></Portfolio>
     </div>
   );
 }
