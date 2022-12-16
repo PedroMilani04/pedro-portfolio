@@ -14,6 +14,7 @@ function App() {
         <AboutMe></AboutMe>
         <Skills></Skills>
         <Portfolio></Portfolio>
+        
     </div>
   );
 }
