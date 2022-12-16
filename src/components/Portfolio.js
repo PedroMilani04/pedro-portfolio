@@ -1,4 +1,6 @@
 import "../css/Portfolio.css"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 export default function Portfolio() {
     return (
@@ -42,6 +44,7 @@ export default function Portfolio() {
                             <h3 className="portfolio_title">Destination</h3>
                             <p className="portfolio_desc">A simple "Trip Catalog" Project using DOM, showing various destinations around the world. Made specially for HTML5 and CSS3 training.</p>
                             <button className="goto"><span>Go to project</span></button>
+                            
                         </div>
                     </div>
                 </div>

@@ -8,6 +8,7 @@
     font-family: 'Poppins', sans-serif;
     margin-left: 5%;
     margin-right: 5%;
+    
 }
 
 
@@ -15,6 +16,7 @@
     width: 400px;
     height: 250px;
     border-radius: 20px;
+    
 }
 
 .portfolio_title {
@@ -36,6 +38,7 @@
 
 .portfolio_content {
     display: flex;
+    margin-bottom: 10vh;
 }
 
 .cv {
