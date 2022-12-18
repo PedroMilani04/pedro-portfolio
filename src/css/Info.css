@@ -10,10 +10,12 @@
 .img {
     height: 350px;
     width: 350px;
-    background-color: black;
     border-radius: 50% 50% 50% 50% / 35% 39% 61% 65%  ;
     margin-left: 2vw;
+    overflow-y: hidden;
 }
+
+
 
 .info1 {
     width: 480px;
@@ -97,9 +99,13 @@
     .img {
         height: 250px;
         width: 250px;
-        background-color: black;
         border-radius: 50% 50% 50% 50% / 35% 39% 61% 65%  ;
         margin-left: 2vw;
+    }
+
+    .img img {
+        margin-left: -30%;
+        margin-top: -10%;
     }
    }
 
@@ -121,6 +127,11 @@
     .img {
         margin-left: 15%;
         margin-bottom: 5vh;
+    }
+
+    .img img {
+        margin-left: -25%;
+        margin-top: -10%;
     }
 
     .infodown {

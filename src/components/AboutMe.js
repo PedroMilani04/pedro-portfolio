@@ -1,4 +1,5 @@
 import "../css/AboutMe.css"
+import imagecode from "../img/coding.jpg"
 
 export default function AboutMe() {
     return (
@@ -9,7 +10,7 @@ export default function AboutMe() {
                 <div className="intro">Introduction</div>
             </div>
             <div className="personalinfo">
-            <div className="image"></div>
+            <div className="image"> <img src={imagecode} /></div>
             <div className="personalinfochild">
                 <div className="summary"> I'm a 18 year old brazilian FrontEnd Dev seeking for professional, technical and work environment development. Always giving my best, being in constant search for knowledge and personal improvement, sharing my current knowledge and skills, while acquiring more and more along the way. Huge interest in technology, physics, history, programming, finances, books and nature!
  </div>
