@@ -117,8 +117,20 @@
 
    @media(max-width: 1024px) {
     .portimg1 {
-        height: 50%;
+        height: 25vh;
     }
+    .coluna {
+        display: block;
+        
+     }
+     .row1 {
+        display: grid;
+       
+     }
+     .row2 {
+        display: grid;
+        margin-left: 0;
+     }
    }
 
    @media(max-width: 768px) {
@@ -147,13 +159,14 @@
     }
 
     .portimg1 {
-        width: 96%;
+        width: 95%;
         height: 20vh;
     }
 
     .portfolio_data {
         margin-left: 0;
         margin-top: 1vh;
+        
     }
 
     .goto {
@@ -162,6 +175,7 @@
     
     .portfolio_desc {
         font-size: 1rem;
+        width: 70vw;
      }
 }
 
