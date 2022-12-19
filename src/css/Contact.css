@@ -1,0 +1,161 @@
+.contactcontainer {
+    margin-bottom: 45vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-email {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.info12 {
+    display: flex;
+    
+}
+
+.infogeral {
+    width: 50vw;
+    
+}
+
+.namelabel {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.emaillabel {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 1vw;
+}
+
+.messageabel {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+
+.emailname {
+    height: 6vh;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0;
+    border-bottom: 2px solid lightgray;
+    border-radius: .25rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+label {
+    color: rgb(124, 124, 124);
+}
+
+.emailmail {
+    height: 6vh;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0;
+    border-bottom: 2px solid lightgray;
+    border-radius: .25rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.emailmessage {
+    height: 10vh;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0;
+    border-bottom: 2px solid lightgray;
+    border-radius: .25rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.emailmail:focus {
+    outline: none;
+}
+
+.emailmessage:focus {
+    outline: none;
+}
+
+.emailname:focus {
+    outline: none;
+}
+
+.sendbutton {
+    
+    margin-top: 3vh;
+    position: relative;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    border-radius: 0.8em;
+    border: none;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: ghostwhite;
+    overflow: hidden;
+   }
+
+.sendbutton span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8em 1.2em 0.8em 1.05em;
+   }
+   
+   .sendbutton::before,
+   .sendbutton::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
+   
+   .sendbutton::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+   
+   .sendbutton:hover::before {
+    transform: translate3d(100%, 0, 0);
+   }
+   
+   .sendbutton:active {
+    transform: scale(0.95);
+   }
+
+   @media(max-width: 1024px) {
+    .infogeral {
+        width: 70vw; 
+    }
+   }
+
+   @media(max-width: 425px) {
+    .info12 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3vh;
+    }
+
+    .namelabel {
+        width: 70vw;
+    }
+
+    .emaillabel {
+        width: 70vw;
+    }
+   }
