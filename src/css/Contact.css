@@ -1,5 +1,6 @@
 .contactcontainer {
-    margin-bottom: 45vh;
+    padding: 20vh 0;
+    margin-bottom: 20vh;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -13,19 +14,19 @@
 
 .info12 {
     display: flex;
-    
+
 }
 
 .infogeral {
     width: 50vw;
-    
+
 }
 
 .namelabel {
     display: flex;
     flex-direction: column;
     width: 50%;
-    
+
 }
 
 .emaillabel {
@@ -88,7 +89,7 @@ label {
 }
 
 .sendbutton {
-    
+
     margin-top: 3vh;
     position: relative;
     font-family: inherit;
@@ -100,7 +101,7 @@ label {
     background: linear-gradient(to right, #8e2de2, #4a00e0);
     color: ghostwhite;
     overflow: hidden;
-   }
+}
 
 .sendbutton span {
     position: relative;
@@ -109,42 +110,42 @@ label {
     display: inline-flex;
     align-items: center;
     padding: 0.8em 1.2em 0.8em 1.05em;
-   }
-   
-   .sendbutton::before,
-   .sendbutton::after {
+}
+
+.sendbutton::before,
+.sendbutton::after {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: 0;
-   }
-   
-   .sendbutton::before {
+}
+
+.sendbutton::before {
     content: "";
     background: #000;
     width: 120%;
     left: -10%;
     transform: skew(30deg);
     transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
-   }
-   
-   .sendbutton:hover::before {
+}
+
+.sendbutton:hover::before {
     transform: translate3d(100%, 0, 0);
-   }
-   
-   .sendbutton:active {
+}
+
+.sendbutton:active {
     transform: scale(0.95);
-   }
+}
 
-   @media(max-width: 1024px) {
+@media(max-width: 1024px) {
     .infogeral {
-        width: 70vw; 
+        width: 70vw;
     }
-   }
+}
 
-   @media(max-width: 425px) {
+@media(max-width: 425px) {
     .info12 {
         display: flex;
         flex-direction: column;
@@ -153,9 +154,20 @@ label {
 
     .namelabel {
         width: 70vw;
+        margin-left: -4px;
     }
 
     .emaillabel {
         width: 70vw;
+        margin-left: -4px;
     }
-   }
+
+    label {
+        margin-left: 5px;
+    }
+
+    .meslabel1 {
+        margin-left: 0;
+    }
+    
+}

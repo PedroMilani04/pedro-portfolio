@@ -22,25 +22,26 @@ export default function Contact() {
     };
 
     return (
-        <div className="contactcontainer">
-            <div className="aboutme">Contact</div>
+        
+        <div className="contactcontainer" id="contactpage">
+            <div className="aboutme" >Contact</div>
             <div className="intro">Reach me</div>
             <div className="contact-email">
                 <form ref={form} onSubmit={sendEmail} className="emailform">
                     <div className="infogeral">
                         <div className="info12">
                             <div className="namelabel">
-                                <label>Name</label>
+                                <label className="namelabel1">Name</label>
                                 <input type="text" name="name" className="emailname" />
                             </div>
                             <div className="emaillabel">
-                                <label>Email</label>
+                                <label className="maillabel1">Email</label>
                                 <input type="email" name="email" className="emailmail" />
                             </div>
                         </div>
 
                         <div className="messageabel">
-                            <label>Message</label>
+                            <label className="meslabel1">Message</label>
                             <textarea name="message" className="emailmessage" />
                         </div>
                     </div>

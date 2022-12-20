@@ -1,7 +1,7 @@
 
 .info {
     display: flex;
-    margin-top: 30vh;
+    padding: 30vh 0;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
    
@@ -113,7 +113,7 @@
     .info {
         flex-direction: column-reverse;
         margin: 10%;
-        margin-top: 12vh;
+        margin-top: -15vh;
     }
 
     .info1 {

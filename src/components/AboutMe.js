@@ -3,7 +3,7 @@ import imagecode from "../img/coding.jpg"
 
 export default function AboutMe() {
     return (
-        <div className="all">
+        <div className="all" id="aboutpage">
         <div className="aboutall">
             <div className="top">
                 <div className="aboutme">About Me</div>

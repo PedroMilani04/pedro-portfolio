@@ -7,7 +7,7 @@ import image4 from "../img/portfolio4.png"
 
 export default function Portfolio() {
     return (
-        <div className="portfoliocontainer">
+        <div className="portfoliocontainer" id="portfoliopage">
 
             <div className="aboutme">Portfolio</div>
             <div className="intro">My works</div>
@@ -50,7 +50,7 @@ export default function Portfolio() {
                             <div className="portfolio_data">
                                 <h3 className="portfolio_title">React Calculator</h3>
                                 <p className="portfolio_desc">A fully functional calculator made using ReactJS, including all the basic operations and features. </p>
-                                <a href="https://react-calculator-kappa-ten.vercel.app/"><button className="goto"><span>Go to project</span></button></a>
+                                <a href="https://react-calculator-kappa-ten.vercel.app/" ><button className="goto"><span>Go to project</span></button></a>
 
                             </div>
                         </div>

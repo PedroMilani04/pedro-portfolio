@@ -2,7 +2,7 @@ import "../css/Skills.css"
 
 export default function Skills() {
     return (
-        <div className="skillaround">
+        <div className="skillaround" id="skillspage">
             <div className="aboutme">Skills</div>
             <div className="intro">Technical level</div>
         <div className="allSkills">
