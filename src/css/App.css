@@ -94,3 +94,37 @@ body {
 #dark .sendbutton {
   color: black;
 }
+
+#dark .nav-list-active {
+  background-color: #222222;
+  color: white;
+}
+
+#dark .nav-list {
+  background-color: #222222;
+  color: white;
+}
+
+#dark .line1change {
+  background-color: white;
+}
+
+#dark .line2change {
+  background-color: white;
+}
+
+#dark .line3change {
+  background-color: white;
+}
+
+#dark .line1 {
+  background-color: white;
+}
+
+#dark .line2 {
+  background-color: white;
+}
+
+#dark .line3 {
+  background-color: white;
+}
