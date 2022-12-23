@@ -130,7 +130,25 @@
     transform: scale(0.95);
    }
 
+   .buttonscv {
+    display: flex;
+
+   }
+
+   .cv {
+    margin-right: 1vw;
+   }
    
+   @media(max-width: 1440px) {
+    .buttonscv {
+        margin-top: 2vh;
+        flex-direction: column;
+    }
+
+    .cv {
+        margin-right: 0;
+    }
+   }
 
    @media(max-width: 1024px) {
     .aboutall {
@@ -158,6 +176,8 @@
     .aboutall {
         width: 90%;
     }
+
+    
   }
 
    @media(max-width: 425px) {

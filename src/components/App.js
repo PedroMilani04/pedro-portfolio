@@ -23,10 +23,12 @@ function App() {
         setIsActive(isActive => !isActive);
     };
 
-  const [theme, setTheme] = useState("light")
+  const [theme, setTheme] = useState()
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"))
   }
+  
+  
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }} >
       <div className="App" id={theme}>

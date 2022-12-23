@@ -13,7 +13,11 @@ function Info() {
                     <div className="name">Hi! I'm Pedro</div>
                     <div className="title">Frontend Developer and AWS Cloud Practicioner</div>
                     <div className="about">Experience in ReactJS and Amazon Web Services. Always in seek of knowledge, experiences and opportunities to aggregate!</div>
-                    <Link to='#contactpage' smooth> <button className="clickme"><span>Contact me</span></button> </Link>
+                    <div className="contactsbutoes">
+                    <a href="https://www.linkedin.com/in/pedromilanidev/"><button className="linkbtn"><span>LinkedIn</span></button></a>
+                    <a href="https://github.com/PedroMilani04"><button className="gitbtn"><span>GitHub</span></button> </a>
+                    </div>
+                   
                 </div>
                 <div className="img"> <img src={img1} /> </div>
             </div>
