@@ -7,7 +7,7 @@ export default function Skills() {
             <div className="intro">Technical level</div>
             <div className="skillscolunas">
                 <div className="allSkills">
-                    <h1>Hard Skills</h1>
+                    <h1 className="skillh1">Hard Skills</h1>
                     <div className="skill">
                         <div className="skilltitle">
                             <h3 className="skillname">HTML5</h3>
@@ -127,7 +127,7 @@ export default function Skills() {
                     </div>
                 </div>
                 <div className="allSkills">
-                <h1>Soft Skills</h1>
+                <h1 className="skillh1">Soft Skills</h1>
                     <div className="skill">
                         <div className="skilltitle">
                             <h3 className="skillname">•  Problem Solving</h3>
