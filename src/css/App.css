@@ -1,8 +1,96 @@
 body {
   background-color: rgb(238, 236, 236);
   overflow-x: hidden;
-  
 }
 
+#dark {
+  background-color: #1a1a1a;
+}
 
+#dark nav {
+  background-color: #222222;
+}
 
+#dark .title {
+  color: rgb(194, 191, 191);
+}
+
+#dark .about {
+  color: rgb(214, 212, 212);
+}
+
+#dark .name {
+  color: white;
+}
+
+#dark .clickme::before {
+  background-color: rgb(226, 226, 226);
+}
+
+#dark .clickme {
+  color: black;
+}
+
+#dark .linkhov {
+  color: rgb(189, 187, 187);
+}
+
+#dark li:hover {
+  border-bottom: .3vh solid rgb(231, 231, 231);
+}
+
+#dark a {
+  color: rgb(216, 215, 215);
+}
+
+#dark .aboutme {
+  color: white;
+}
+
+#dark .intro {
+  color: rgb(207, 206, 206);
+}
+
+#dark .summary {
+  color: rgb(218, 218, 218);
+}
+
+#dark .cv::before {
+  background-color: rgb(226, 226, 226);
+}
+
+#dark .cv {
+  color: black;
+}
+
+#dark .skilltitle {
+  color: rgb(219, 218, 218);
+}
+
+#dark .percentage {
+  color: rgb(221, 219, 219);
+}
+
+#dark .portfolio_title {
+  color: white;
+}
+
+#dark .portfolio_desc {
+  color: rgb(214, 212, 212);
+}
+
+#dark .goto::before {
+  background-color: rgb(226, 226, 226);
+}
+
+#dark .goto {
+  color: black;
+}
+
+#dark .sendbutton::before {
+  background-color: rgb(226, 226, 226);
+}
+
+#dark .sendbutton {
+  color: black;
+}
