@@ -2,14 +2,23 @@
     padding: 10vh 0;
     font-family: 'Poppins', sans-serif;
 }
+
+.skillscolunas {
+    display: flex;
+    justify-content: center;
+}
 .allSkills {
     display: flex;
     flex-direction: column;
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 30%;
     font-family: 'Poppins', sans-serif;
+    
 }
-
+h1 {
+    margin-bottom: 3vh;
+}
 .skilltitle {
     display: flex;
     width: 100%;
@@ -96,4 +105,17 @@
 
 .skillenglishpercentage {
     width: 95%;
+}
+
+@media(max-width: 425px) {
+    .skillscolunas {
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allSkills {
+        width: 85%;
+        margin-bottom: 7vh;
+    }
 }

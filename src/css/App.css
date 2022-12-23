@@ -105,6 +105,10 @@ body {
   color: white;
 }
 
+#dark h1 {
+  color: white;
+}
+
 #dark .line1change {
   background-color: white;
 }
