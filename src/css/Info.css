@@ -109,6 +109,9 @@
     overflow: hidden;
    }
    
+   svg {
+    margin-right: 10px;
+   }
   
    
    .linkbtn span {

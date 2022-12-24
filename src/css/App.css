@@ -3,6 +3,11 @@ body {
   overflow-x: hidden;
 }
 
+.sunmoon {
+  margin-left: 3px;
+  margin-top: 2px;
+}
+
 #dark {
   background-color: #1a1a1a;
 }
