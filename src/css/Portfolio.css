@@ -63,7 +63,8 @@
 }
 
 .cv {
-    
+    width: 95%;
+    height: 80px;
     margin-top: 3vh;
     position: relative;
     font-family: inherit;
@@ -75,6 +76,7 @@
     background: linear-gradient(to right, #8e2de2, #4a00e0);
     color: ghostwhite;
     overflow: hidden;
+    margin-left: 0;
    }
    
   
