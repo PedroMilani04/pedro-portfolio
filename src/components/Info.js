@@ -11,7 +11,7 @@ function Info() {
             <div className="info" id="homepage">
                 <div className="info1">
                     <div className="name">Hi! I'm Pedro</div>
-                    <div className="title">Frontend Developer and AWS Cloud Practicioner</div>
+                    <div className="title">Fullstack Developer and AWS Cloud Practicioner</div>
                     <div className="about">Experience in ReactJS and Amazon Web Services. Always in seek of knowledge, experiences and opportunities to aggregate!</div>
                     <div className="contactsbutoes">
                     <a href="https://www.linkedin.com/in/pedromilanidev/"><button className="linkbtn"><span> <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
