@@ -20,8 +20,8 @@ export default function AboutMe() {
                             <div className="companies"><span className="number">01</span> Company worked</div>
                         </div>
                         <div className="buttonscv">
-                            <a href="https://drive.google.com/file/d/17d7mYACJO23kwXuap2TJ47ImN8cBmWY-/view?usp=sharing"><button className="cv"><span>Download CV - English</span></button></a>
-                            <a href="https://drive.google.com/file/d/1ctDdnPYHudEaGOOF8xu75NJZ1DZvWvTO/view?usp=sharing"><button className="cv"><span>Download CV - Portuguese</span></button></a>
+                            <a href="https://drive.google.com/file/d/1O0lNGPOGAnYGuz0iTxbRcKQ5g2mGax9G/view?usp=sharing"><button className="cv"><span>Download CV - English</span></button></a>
+                            <a href="https://drive.google.com/file/d/1NR3m49W4M0qwec-HLQrQuM89iYbPs8l2/view?usp=sharing"><button className="cv"><span>Download CV - Portuguese</span></button></a>
                         </div>
                     </div>
                 </div>
