@@ -30,6 +30,7 @@ Fully functional Portfolio made using ReactJS, presenting full responsiveness, "
   </tr>
   
   <tr>
+  
     <td><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></td>
     <td><img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"></td>
   </tr>
