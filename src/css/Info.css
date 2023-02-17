@@ -15,7 +15,17 @@
     overflow-y: hidden;
 }
 
+.gitbtn:hover {
+    background: #3a4c64;
+    transform: scale(1.01);
+    transition: ease-out .3s;
+}
 
+.linkbtn:hover {
+    background-color: #1c82e9;
+    transition: ease-out .4s;
+    transform: scale(1.01);
+}
 
 .info1 {
     width: 480px;
@@ -76,14 +86,6 @@
     z-index: 0;
    }
    
-   .gitbtn::before {
-    content: "";
-    background: #1c2531;
-    width: 120%;
-    left: -10%;
-    transform: skew(30deg);
-    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
-   }
    
    .gitbtn:hover::before {
     transform: translate3d(100%, 0, 0);
@@ -132,14 +134,7 @@
     z-index: 0;
    }
    
-   .linkbtn::before {
-    content: "";
-    background: #0A66C2;
-    width: 120%;
-    left: -10%;
-    transform: skew(30deg);
-    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
-   }
+   
    
    .linkbtn:hover::before {
     transform: translate3d(100%, 0, 0);

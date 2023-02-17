@@ -63,13 +63,16 @@
 }
 
 .cards div {
-    width: 100px;
+    width: 140px;
     height: 100px;
     background-color: rgb(229, 231, 231);
     border-radius: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.274);
+    margin-bottom: 2px;
+    margin-right: 2px;
 }
 
 .number {
@@ -137,8 +140,11 @@
 
    .cv {
     margin-right: 1vw;
+    transition: ease-out .3s;
+    
    }
-   
+
+  
    @media(max-width: 1440px) {
     .buttonscv {
         margin-top: 2vh;
@@ -147,6 +153,10 @@
 
     .cv {
         margin-right: 0;
+    }
+
+    .cards div {
+        width: 100px;
     }
    }
 
@@ -220,9 +230,33 @@
         width: 70vw;
     }
 
+    .cards {
+        display: flex;
+        flex-direction: column;
+        transform: translate(10%);
+
+        
+    }
+
     .cards div {
         margin-left: 2%;
-        font-size: .9rem;
+        font-size: 1.1rem;
         word-break: break-word;
+        width: 200px;
+        margin-bottom: 10px;
     }
+    .number {
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+    
+   }
+
+   @media(max-width: 320px) {
+    .cards {
+            
+            transform: translate(5%);
+    
+    
+        }
    }

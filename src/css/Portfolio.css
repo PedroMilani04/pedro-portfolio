@@ -39,6 +39,15 @@
     
 }
 
+.goto {
+    transition: ease-out .2s;
+    margin-left: 6px;
+    margin-bottom: 8px;
+}
+
+.goto:hover {
+    transform: scale(1.07);
+}
 
 .portimg1 {
     width: 400px;
@@ -85,6 +94,7 @@
     color: ghostwhite;
     overflow: hidden;
     margin-left: 0;
+    
    }
    
   
@@ -189,6 +199,7 @@
 
     .goto {
         margin-top: 2vh;
+        
     }
     
     .portfolio_desc {
