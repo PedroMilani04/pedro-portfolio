@@ -1,262 +1,285 @@
+.info {
+  display: flex;
+  padding: 30vh 0;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  transition: ease-out 0.2s;
+  
+}
 
 .info {
-    display: flex;
-    padding: 30vh 0;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    transition: ease-out .2s;
+    animation: slide-left 2.4s;
+    
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: -150%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
 
 .img {
-    height: 350px;
-    width: 350px;
-    border-radius: 50% 50% 50% 50% / 35% 39% 61% 65%  ;
-    margin-left: 2vw;
-    overflow-y: hidden;
-    border: #1a1a1a 2px solid;
-    animation: profile_animate 8s ease-in-out infinite 1s;
+  height: 350px;
+  width: 350px;
+  border-radius: 60% 50% 40% 80% / 60% 39% 70% 45%;
+  margin-left: 2vw;
+  overflow-y: hidden;
+  border: #1a1a1a 2px solid;
+  animation: profile_animate 8s ease-in-out infinite 1s;
 }
 
 @keyframes profile_animate {
-    0% {
-        border-radius: 60% 50% 40% 80% / 60% 39% 70% 45%  ;
-    }
+  0% {
+    border-radius: 60% 50% 40% 80% / 60% 39% 70% 45%;
+  }
 
-    50% {
-        border-radius: 30% 60% 70% 40% / 50% 60% 30% 65%  ;
-    }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 65%;
+  }
 
-    100% {
-        border-radius: 60% 50% 40% 80% / 60% 39% 70% 45% ;
-    }
+  100% {
+    border-radius: 60% 50% 40% 80% / 60% 39% 70% 45%;
+  }
 }
 
 .gitbtn:hover {
-    background: #3a4c64;
-    transform: scale(1.01);
-    transition: ease-out .3s;
+  background: #3a4c64;
+  transform: scale(1.01);
+  transition: ease-out 0.3s;
 }
 
 .linkbtn:hover {
-    background-color: #1c82e9;
-    transition: ease-out .4s;
-    transform: scale(1.01);
+  background-color: #1c82e9;
+  transition: ease-out 0.4s;
+  transform: scale(1.01);
 }
 
 .info1 {
-    width: 480px;
+  width: 480px;
 }
 
 .name {
-    font-size: 3.5rem;
-    color: black;
+  font-size: 3.5rem;
+  color: black;
 }
 
 .title {
-    font-size: 1.5rem;
-    margin-top: 1.7vh;
-    color: rgb(80, 79, 79);
+  font-size: 1.5rem;
+  margin-top: 1.7vh;
+  color: rgb(80, 79, 79);
 }
 
 .about {
-    font-size: 1.1rem;
-    margin-top: 1.7vh;
-    color: rgb(117, 117, 117);
+  font-size: 1.1rem;
+  margin-top: 1.7vh;
+  color: rgb(117, 117, 117);
 }
 
+.gitbtn {
+  margin-top: 3vh;
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  border-radius: 0.4em;
+  border: none;
+  background: #1c2531;
+  color: ghostwhite;
+  overflow: hidden;
+  width: 48%;
+}
 
+.gitbtn span {
+  position: relative;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+}
 
-   .gitbtn {
-   
-    margin-top: 3vh;
-    position: relative;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 0.05em;
-    border-radius: 0.4em;
-    border: none;
-    background: #1c2531;
-    color: ghostwhite;
-    overflow: hidden;
-    width: 48%;
-   }
-   
-  
-   
-   .gitbtn span {
-    position: relative;
-    transition: color 0.4s;
-    display: inline-flex;
+.gitbtn::before,
+.gitbtn::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.gitbtn:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.gitbtn:active {
+  transform: scale(0.95);
+}
+
+.linkbtn {
+  margin-right: 1vw;
+  width: 48%;
+  margin-top: 3vh;
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  border-radius: 0.4em;
+  border: none;
+  background: #0a66c2;
+  color: ghostwhite;
+  overflow: hidden;
+}
+
+svg {
+  margin-right: 10px;
+}
+
+.linkbtn span {
+  position: relative;
+  transition: color 0.4s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+}
+
+.linkbtn::before,
+.linkbtn::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.linkbtn:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.linkbtn:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .info {
+    margin: 5%;
+  }
+
+  .img {
+    height: 250px;
+    width: 250px;
+    border-radius: 60% 50% 40% 80% / 60% 39% 70% 45%;
+    margin-left: 2vw;
+  }
+
+  .img img {
+    margin-left: -30%;
+    margin-top: -10%;
+  }
+
+  @keyframes slide-left {
+  from {
+    margin-left: -180%;
+  }
+
+  to {
+    margin-left: 5%;
+  }
+}
+}
+
+@media (max-width: 425px) {
+  .info {
+    flex-direction: column-reverse;
+    margin: 10%;
+    margin-top: -15vh;
+  }
+
+  .info1 {
+    width: 82vw;
+  }
+
+  .title {
+    width: 320px;
+  }
+
+  .img {
+    margin-left: 15%;
+    margin-bottom: 5vh;
+  }
+
+  .img img {
+    margin-left: -25%;
+    margin-top: -10%;
+  }
+
+  .infodown {
+    margin-top: 170%;
+    flex-direction: column;
+  }
+
+  .contactsbutoes {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+  }
+
+  @keyframes slide-left {
+  from {
+    margin-left: -120%;
+  }
+
+  to {
+    margin-left: 10%;
+  }
+}
+}
+
+@media (max-width: 375px) {
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .about {
+    font-size: 0.9rem;
+  }
+
+  .img {
+    margin-left: 10%;
+  }
+
+  .clickme {
+    margin-left: 22.5%;
+  }
+}
+
+@media (max-width: 320px) {
+  .img {
+    margin-left: 0;
+  }
+
+  .info {
     align-items: center;
-    padding: 0.8em 1.2em 0.8em 1.05em;
-   }
-   
-   .gitbtn::before,
-   .gitbtn::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-   }
-   
-   
-   .gitbtn:hover::before {
-    transform: translate3d(100%, 0, 0);
-   }
-   
-   .gitbtn:active {
-    transform: scale(0.95);
-   }
+  }
+  .info1 {
+    width: 60vw;
+  }
 
-   .linkbtn {
-    margin-right: 1vw;
-    width: 48%;
-    margin-top: 3vh;
-    position: relative;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 0.05em;
-    border-radius: 0.4em;
-    border: none;
-    background: #0A66C2;
-    color: ghostwhite;
-    overflow: hidden;
-   }
-   
-   svg {
-    margin-right: 10px;
-   }
-  
-   
-   .linkbtn span {
-    position: relative;
-    transition: color 0.4s;
-    display: inline-flex;
-    align-items: center;
-    padding: 0.8em 1.2em 0.8em 1.05em;
-   }
-   
-   .linkbtn::before,
-   .linkbtn::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-   }
-   
-   
-   
-   .linkbtn:hover::before {
-    transform: translate3d(100%, 0, 0);
-   }
-   
-   .linkbtn:active {
-    transform: scale(0.95);
-   }
+  .name {
+    font-size: 3rem;
+  }
 
-   @media(max-width: 768px) {
-    .info {
-        margin: 5%;
-        
-    }
-
-    .img {
-        height: 250px;
-        width: 250px;
-        border-radius: 50% 50% 50% 50% / 35% 39% 61% 65%  ;
-        margin-left: 2vw;
-    }
-
-    .img img {
-        margin-left: -30%;
-        margin-top: -10%;
-    }
-   }
-
-   @media(max-width: 425px) {
-    .info {
-        flex-direction: column-reverse;
-        margin: 10%;
-        margin-top: -15vh;
-    }
-
-    .info1 {
-        width: 82vw;
-    }
-
-    .title {
-        width: 320px;
-    }
-
-    .img {
-        margin-left: 15%;
-        margin-bottom: 5vh;
-    }
-
-    .img img {
-        margin-left: -25%;
-        margin-top: -10%;
-    }
-
-    .infodown {
-        margin-top: 170%;
-        flex-direction: column;
-    }
-    
-    .contactsbutoes {
-        display: flex;
-        flex-direction: column;
-        width: 200%;
-    }
-   }
-
-   @media(max-width: 375px) {
-    .name {
-        font-size: 2.5rem;
-    }
-
-    .title {
-        font-size: 1.2rem;
-    }
-
-    .about {
-        font-size: .9rem;
-    }
-
-    
-    .img {
-        margin-left: 10%;
-    }
-
-    .clickme {
-        margin-left: 22.5%;
-    }
-   }
-
-   @media(max-width: 320px) {
-    .img {
-        margin-left: 0;
-    }
-
-    .info {
-        align-items: center;
-    }
-    .info1 {
-        width: 60vw;
-        
-    }
-
-    .name {
-        font-size: 3rem;
-    }
-
-    .clickme {
-        margin-left: 11%;
-    }
-   }
+  .clickme {
+    margin-left: 11%;
+  }
+}

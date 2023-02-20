@@ -47,8 +47,12 @@
 
 .goto:hover {
     transform: scale(1.07);
+    
 }
 
+.goto:active {
+  transform: scale(0.95);
+}
 .portimg1 {
     width: 400px;
     height: 250px;
