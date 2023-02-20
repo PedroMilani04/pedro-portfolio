@@ -61,7 +61,7 @@ function Info() {
         </div>
         <div className="img">
           {" "}
-          <img src={img1} />{" "}
+          <img src={img1} className="imgportas" />{" "}
         </div>
       </div>
     </BrowserRouter>

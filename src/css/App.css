@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(238, 236, 236);
+  background-color: rgb(230, 230, 230);
   overflow-x: hidden;
 }
 
@@ -8,8 +8,19 @@ body {
   margin-top: 2px;
 }
 
+
+#dark .cards div {
+  background-color: #363636;
+  color: white;
+  box-shadow: 2px 2px rgba(224, 223, 223, 0.274);
+}
+
 #dark {
   background-color: #1a1a1a;
+}
+
+#dark .img {
+  border: #e6e5e5 2px solid;
 }
 
 #dark nav {
@@ -53,19 +64,27 @@ body {
 }
 
 #dark .intro {
-  color: rgb(207, 206, 206);
+  color: rgb(192, 191, 191);
 }
 
 #dark .summary {
   color: rgb(218, 218, 218);
 }
-
-#dark .cv::before {
-  background-color: rgb(226, 226, 226);
+#dark button::before {
+  background-color: aliceblue;
+  
 }
 
-#dark .cv {
-  color: black;
+#dark .linkbtn {
+  color: white;
+}
+
+#dark .gitbtn {
+  color: white;
+}
+
+#dark button {
+  color: #1a1a1a;
 }
 
 #dark .skilltitle {
@@ -84,21 +103,6 @@ body {
   color: rgb(214, 212, 212);
 }
 
-#dark .goto::before {
-  background-color: rgb(226, 226, 226);
-}
-
-#dark .goto {
-  color: black;
-}
-
-#dark .sendbutton::before {
-  background-color: rgb(226, 226, 226);
-}
-
-#dark .sendbutton {
-  color: black;
-}
 
 #dark .nav-list-active {
   background-color: #222222;

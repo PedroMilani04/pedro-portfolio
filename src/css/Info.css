@@ -4,7 +4,7 @@
     padding: 30vh 0;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-   
+    transition: ease-out .2s;
 }
 
 .img {
@@ -13,6 +13,22 @@
     border-radius: 50% 50% 50% 50% / 35% 39% 61% 65%  ;
     margin-left: 2vw;
     overflow-y: hidden;
+    border: #1a1a1a 2px solid;
+    animation: profile_animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile_animate {
+    0% {
+        border-radius: 60% 50% 40% 80% / 60% 39% 70% 45%  ;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 65%  ;
+    }
+
+    100% {
+        border-radius: 60% 50% 40% 80% / 60% 39% 70% 45% ;
+    }
 }
 
 .gitbtn:hover {
