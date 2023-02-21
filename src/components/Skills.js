@@ -1,13 +1,26 @@
 import "../css/Skills.css"
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Skills() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
     return (
       <div className="skillaround" id="skillspage">
-        <div className="aboutme">Skills</div>
-        <div className="intro">Technical level</div>
+        <div className="aboutme" data-aos="fade-up">
+          Skills
+        </div>
+        <div className="intro" data-aos="fade-down">
+          Technical level
+        </div>
         <div className="skillscolunas">
           <div className="allSkills">
-            <h1 className="skillh1">Hard Skills</h1>
+            <h1 className="skillh1" data-aos="fade-right">
+              Hard Skills
+            </h1>
             <div className="skill">
               <div className="skilltitle">
                 <h3 className="skillname">HTML5</h3>
@@ -121,13 +134,15 @@ export default function Skills() {
                 <h3 className="skillname">English</h3>
                 <span className="percentage">Fluent</span>
               </div>
-              <div className="percbar">
+              <div className="percbar" >
                 <span className="skillperc skillenglishpercentage"></span>
               </div>
             </div>
           </div>
           <div className="allSkills">
-            <h1 className="skillh1">Soft Skills</h1>
+            <h1 className="skillh1" data-aos="fade-left">
+              Soft Skills
+            </h1>
             <div className="skill">
               <div className="skilltitle">
                 <h3 className="skillname">• Problem Solving</h3>

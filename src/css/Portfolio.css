@@ -46,7 +46,7 @@
 }
 
 .goto:hover {
-    transform: scale(1.07);
+    transform: scale(1.05);
     
 }
 
@@ -69,6 +69,7 @@
     font-size: 1.1rem;
     color: rgb(80, 79, 79); 
     word-wrap: break-word;
+    
 }
 
 .portfolio_data {

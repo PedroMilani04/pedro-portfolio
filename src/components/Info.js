@@ -2,25 +2,46 @@ import "../css/Info.css";
 import img1 from "../img/img1.jpg";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Info() {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
     <BrowserRouter>
       <div className="info" id="homepage">
         <div className="info1">
           <div className="infopedros">
-            <div className="name">Hi! I'm Pedro</div>
-            <div className="title">
+            <div className="name" data-aos="fade-down" data-aos-duration="1000">
+              Hi! I'm Pedro
+            </div>
+            <div
+              className="title"
+              data-aos="fade-right"
+              data-aos-duration="1700"
+            >
               Fullstack Developer and AWS Cloud Practicioner
             </div>
-            <div className="about">
+            <div
+              className="about"
+              data-aos="fade-right"
+              data-aos-duration="1700"
+            >
               Experience in ReactJS and Amazon Web Services. Always in seek of
               knowledge, experiences and opportunities to aggregate!
             </div>
 
             <div className="contactsbutoes">
               <a href="https://www.linkedin.com/in/pedromilanidev/">
-                <button className="linkbtn">
+                <button
+                  className="linkbtn"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
                   <span>
                     {" "}
                     <svg
@@ -40,7 +61,11 @@ function Info() {
                 </button>
               </a>
               <a href="https://github.com/PedroMilani04">
-                <button className="gitbtn">
+                <button
+                  className="gitbtn"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
                   <span>
                     {" "}
                     <svg
@@ -62,7 +87,7 @@ function Info() {
             </div>
           </div>
         </div>
-        <div className="img">
+        <div className="img" data-aos="fade-left" data-aos-duration="1700">
           {" "}
           <img src={img1} className="imgportas" />{" "}
         </div>

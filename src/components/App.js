@@ -22,11 +22,12 @@ function App() {
     setIsActive(isActive => !isActive);
   };
 
-  const [theme, setTheme] = useState()
+  const [theme, setTheme] = useState("light")
   const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"))
   }
 
+  window.localStorage.setItem("theme", theme);
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }} >

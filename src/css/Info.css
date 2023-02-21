@@ -7,10 +7,6 @@
   
 }
 
-.info {
-    animation: slide-left 2.4s;
-    
-}
 
 @keyframes slide-left {
   from {
