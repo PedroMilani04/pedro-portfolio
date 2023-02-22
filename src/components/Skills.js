@@ -163,11 +163,7 @@ export default function Skills() {
                 <h3 className="skillname">• Research</h3>
               </div>
             </div>
-            <div className="skill">
-              <div className="skilltitle">
-                <h3 className="skillname">• Emotional intelligence</h3>
-              </div>
-            </div>
+            
             <div className="skill">
               <div className="skilltitle">
                 <h3 className="skillname">• Resilience</h3>
