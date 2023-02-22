@@ -1,18 +1,25 @@
 body {
   background-color: rgb(230, 230, 230);
   overflow-x: hidden;
+  
 }
+
+
 
 .sunmoon {
   margin-left: 3px;
   margin-top: 2px;
 }
 
+#dark .portfolioback {
+  background-color: #494949b7;
+  border: #333333 solid 1px;
+}
 
 #dark .cards div {
-  background-color: #363636;
+  background-color: #555555;
   color: white;
-  box-shadow: 2px 2px rgba(224, 223, 223, 0.274);
+  box-shadow: 2px 2px rgba(236, 236, 236, 0.425);
 }
 
 #dark {

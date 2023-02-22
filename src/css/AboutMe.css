@@ -34,26 +34,45 @@
 }
 
 .image {
-    width: 850px;
-    height: 300px;
-    margin-right: 5vw;
+    width: 1050px;
+    margin-top: 1vh;
+    margin-right: 0vw;
     border-radius: 20px;
+    margin-left: 2vw;
     overflow-y: hidden;
 }
 
+
+
+.svgaward1 {
+    width: 30%;
+    height: 30%;
+    overflow-y: hidden;
+    margin-left: 3.2vw;
+    margin-top: 3px;
+}
+
+.years, .companies, .projects {
+    font-size: .8rem;
+}
+
+
 .image img {
-    width: 850px;
-    height: 300px;
-   
+    width:450px;
+    height: 370px;
+    border-radius: 20px;
+    
 }
 
 .personalinfo {
     display: flex;
+    
 }
 
 .personalinfochild {
-    width: 55vw;
-    margin-right: 5vw;
+    width: 70vw;
+    margin-right: 1vw;
+    
 }
 
 .cards {
@@ -62,12 +81,12 @@
     justify-content: space-between;
     overflow-y: hidden;
     height: 120px;
-    
+    color: #303030;
 }
 
 .cards div {
     margin-top: 1vh;
-    width: 120px;
+    width: 9vw;
     height: 100px;
     background-color: rgb(220, 221, 221);
     border-radius: 10px;
@@ -90,6 +109,7 @@
 .number {
     font-size: 1.8rem;
     font-weight: 700;
+    overflow-y: hidden;
 }
 
 .goto {
@@ -167,9 +187,17 @@
         margin-right: 0;
     }
 
-    .cards div {
-        width: 100px;
+    .image {
+        margin-right: 3vw;
     }
+
+    .image img {
+    width: 400px;
+    height: 370px;
+    border-radius: 20px;
+    
+}
+    
    }
 
    @media(max-width: 1024px) {
@@ -187,6 +215,16 @@
         width: 425px;
         height: 180px;
     }
+
+    .cards div {
+        width: 20vw;
+    }
+
+    .svgaward1 {
+        margin-left: 4.7vw;
+    }
+
+    
    }
 
   @media(max-width: 768px) {
@@ -199,7 +237,13 @@
         width: 90%;
     }
 
-    
+    .number {
+        font-size: 1.3rem;
+    }
+
+    .image {
+        margin-right: 5vw;
+    }
   }
 
    @media(max-width: 425px) {
@@ -214,7 +258,7 @@
     .personalinfochild {
         margin-top: 3vh;
         margin-left: 5%;
-        width: 70vw;
+        
     }
 
     .summary {
@@ -226,14 +270,49 @@
         margin-left: 2%;
     }
 
-    .number {
-        font-size: 1.5rem;
-    }
-
+    
     .image {
         width: 80%;
         margin-left: 5%;
     }
+
+    .svgaward1 {
+        margin-left: 20vw;
+    }
+    .number {
+        margin-top: -15px;
+    }
+
+    
+   }
+
+   @media(max-width: 425px) {
+    .personalinfochild {
+        margin-left: 6%;
+        width: 70vw;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        transform: translate(10%);
+        height: 320px;
+        
+    }
+
+    .cards div {
+        margin-left: 0%;
+        font-size: .8rem;
+        word-break: break-word;
+        width: 240px;
+        margin-bottom: 10px;
+    }
+    .number {
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+    
+    
    }
 
    @media(max-width: 375px) {
@@ -251,20 +330,29 @@
     }
 
     .cards div {
-        margin-left: 2%;
-        font-size: 1.1rem;
+        margin-left: 3%;
+        font-size: .8rem;
         word-break: break-word;
         width: 200px;
         margin-bottom: 10px;
     }
     .number {
-        font-size: 1.8rem;
-        margin-top: 10px;
+        font-size: 1.2rem;
+        margin-top: 5px;
+
+    }
+
+    .svgaward1 {
+        margin-left: 19vw;
     }
     
    }
 
    @media(max-width: 320px) {
+    .svgaward1 {
+        margin-left: 22vw;
+    }
+
     .cards {
             
             transform: translate(5%);
