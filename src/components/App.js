@@ -105,7 +105,7 @@ function App() {
                 </li>
                 <li>
                   <Link to="#portfoliopage" smooth className="linkhov">
-                    Portfolio
+                    Projects
                   </Link>
                 </li>
                 <li>

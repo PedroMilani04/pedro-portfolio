@@ -16,7 +16,7 @@ export default function Portfolio() {
     return (
       <div className="portfoliocontainer" id="portfoliopage">
         <div className="aboutme" data-aos="fade-up">
-          Portfolio
+          Projects
         </div>
         <div className="intro" data-aos="fade-down">
           My works
@@ -36,14 +36,12 @@ export default function Portfolio() {
                         data-aos="fade-down"
                         data-aos-duration="700"
                       >
-                        Destination
+                        Movement Detection 
                       </h3>
                       <p className="portfolio_desc" data-aos="fade-left">
-                        A simple "Catalog" Project using HTML5/CSS3/JS,
-                        showcasing various destinations around the world. Made
-                        specially for HTML5 and CSS3 training.
+                      A pre-trained machine learning project, using of tools like Web Workers for the Machine Learning process execution, TensorFlowJS and a variety of APIs.
                       </p>
-                      <a href="https://destination-viagem.vercel.app/">
+                      <a href="https://pedromilani04.github.io/hands-detection-stream/pages/titles/">
                         <button className="goto">
                           <span>Go to project</span>
                         </button>
