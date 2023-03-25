@@ -75,7 +75,7 @@
     font-size: .85rem;
     color: rgb(80, 79, 79); 
     word-wrap: break-word;
-    
+    margin-top: 6px;
 }
 
 .portfolio_data {
@@ -227,7 +227,7 @@
     }
 
     .portfolio_desc {
-        font-size: .9rem;
-        width: 86%;
+        font-size: .8rem;
+        width: 75%;
      }
 }
