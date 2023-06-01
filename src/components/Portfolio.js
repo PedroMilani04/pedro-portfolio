@@ -105,29 +105,9 @@ export default function Portfolio() {
 
                 </div>
               </div>
-              <div className="portfolio_content grid">
-                <div className="portfolioback">
-                  <img src={image7} className="portimg1"></img>
+              
 
-                  <div className="portfolio_data">
-                    <h3
-                      className="portfolio_title"
-                      data-aos="fade-down"
-                      data-aos-duration="700"
-                    >
-                      EJCOMP Landing Page
-                    </h3>
-                    <p className="portfolio_desc" data-aos="fade-left">
-                      A Landing Page website made using ReactJS for the selective process for the FCT - UNESP Junior Company, EJCOMP. {" "}
-                    </p>
-                    <a href="https://ej-landingpage.vercel.app/">
-                      <button className="goto">
-                        <span>Go to project</span>
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
+
               
             </div>
             <div className="row2">
@@ -159,7 +139,7 @@ export default function Portfolio() {
 
               <div className="portfolio_content grid">
                 <div className="portfolioback">
-                  <img src={image3} className="portimg1"></img>
+                  <img src={image7} className="portimg1"></img>
 
                   <div className="portfolio_data">
                     <h3
@@ -167,21 +147,19 @@ export default function Portfolio() {
                       data-aos="fade-down"
                       data-aos-duration="700"
                     >
-                      Tenzi Game
+                      Notes Database
                     </h3>
                     <p className="portfolio_desc" data-aos="fade-left">
-                      Project made with ReactJS and CSS3, inspired by the dice
-                      game "Tenzi". The objective is to roll the dices until
-                      all the numbers are the same.
+                      A CRUD App, made using ReactJS, MongoDB, NodeJS, ExpressJS and hosted in AWS, with the backend API hosted on EC2 and the frontend in Amazon S3.
                     </p>
-                    <a href="https://tenzi-game-project.vercel.app/">
+                    <a href="http://notes-frontend-pedro.s3-website-us-east-1.amazonaws.com">
                       <button className="goto">
                         <span>Go to project</span>
                       </button>
                     </a>
                   </div>
                 </div>
-              </div>
+              </div>  
               <div className="portfolio_content grid">
                 <div className="portfolioback">
                   <img src={image2} className="portimg1"></img>
