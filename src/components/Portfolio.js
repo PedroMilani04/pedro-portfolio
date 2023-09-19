@@ -6,7 +6,7 @@ import image4 from "../img/portfolio4.png"
 import image5 from "../img/portfolio5.png"
 import image6 from "../img/portfolio6.png";
 import image7 from "../img/portfolio7.png";
-
+import image8 from "../img/portfolio8.png"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -79,6 +79,7 @@ export default function Portfolio() {
                     </a>
                   </div>
                 </div>
+
               </div>
               <div className="portfolio_content grid">
                 <div className="portfolioback">
@@ -104,16 +105,12 @@ export default function Portfolio() {
                   </div>
 
                 </div>
+
               </div>
-              
 
-
-              
-            </div>
-            <div className="row2">
-              <div className="portfolio_content grid forecast">
+              <div className="portfolio_content grid">
                 <div className="portfolioback">
-                  <img src={image5} className="portimg1"></img>
+                  <img src={image2} className="portimg1"></img>
 
                   <div className="portfolio_data">
                     <h3
@@ -121,14 +118,43 @@ export default function Portfolio() {
                       data-aos="fade-down"
                       data-aos-duration="700"
                     >
-                      Weather Forecast
+                      Web Pokédex
                     </h3>
                     <p className="portfolio_desc" data-aos="fade-left">
-                      A Weather Forecast application made with ReactJS and
-                      OpenWeatherMap API, containing 200.000+ cities,
-                      temperature, wind speed, humidity and more!{" "}
+                      A web project using HTML5, CSS3 and JavaScript to create
+                      a stylized pokédex based on the game franchise
+                      "Pokémon".
                     </p>
-                    <a href="https://react-weather-report.vercel.app/">
+                    <a href="https://pokedex-ph.vercel.app/">
+                      <button className="goto">
+                        <span>Go to project</span>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+            <div className="row2">
+
+              <div className="portfolio_content grid forecast">
+                <div className="portfolioback">
+                  <img src={image8} className="portimg1"></img>
+
+                  <div className="portfolio_data">
+                    <h3
+                      className="portfolio_title"
+                      data-aos="fade-down"
+                      data-aos-duration="700"
+                    >
+                      Brazil Map
+                    </h3>
+                    <p className="portfolio_desc" data-aos="fade-left">
+                      A interactive map of all the Brazillian states, including name, capital, biome, time zone and photos. Made with ReactJS, GeoJSON Polygons and NPoint Cloud Hosting.{" "}
+                    </p>
+                    <a href="https://brazil-map.vercel.app">
                       <button className="goto">
                         <span>Go to project</span>
                       </button>
@@ -159,10 +185,11 @@ export default function Portfolio() {
                     </a>
                   </div>
                 </div>
-              </div>  
-              <div className="portfolio_content grid">
+              </div>
+
+              <div className="portfolio_content grid forecast">
                 <div className="portfolioback">
-                  <img src={image2} className="portimg1"></img>
+                  <img src={image5} className="portimg1"></img>
 
                   <div className="portfolio_data">
                     <h3
@@ -170,14 +197,14 @@ export default function Portfolio() {
                       data-aos="fade-down"
                       data-aos-duration="700"
                     >
-                      Web Pokédex
+                      Weather Forecast
                     </h3>
                     <p className="portfolio_desc" data-aos="fade-left">
-                      A web project using HTML5, CSS3 and JavaScript to create
-                      a stylized pokédex based on the game franchise
-                      "Pokémon".
+                      A Weather Forecast application made with ReactJS and
+                      OpenWeatherMap API, containing 200.000+ cities,
+                      temperature, wind speed, humidity and more!{" "}
                     </p>
-                    <a href="https://pokedex-ph.vercel.app/">
+                    <a href="https://react-weather-report.vercel.app/">
                       <button className="goto">
                         <span>Go to project</span>
                       </button>

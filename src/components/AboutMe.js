@@ -190,12 +190,12 @@ export default function AboutMe() {
               </div>
             </div>
             <div className="buttonscv">
-              <a href="https://drive.google.com/file/d/1O0lNGPOGAnYGuz0iTxbRcKQ5g2mGax9G/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1iu3Gi6gHTdxBt22ZaXtxY1Mf-Nk7c2ni/view?usp=sharing">
                 <button className="cv">
                   <span>Download CV - English</span>
                 </button>
               </a>
-              <a href="https://drive.google.com/file/d/1NR3m49W4M0qwec-HLQrQuM89iYbPs8l2/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1iurvMbsVEEdTmlXp8FjtljMfOSyiG81_/view?usp=sharing">
                 <button className="cv">
                   <span>Download CV - Portuguese</span>
                 </button>
