@@ -4,7 +4,8 @@
   justify-content: center;
   font-family: "Poppins", sans-serif;
   transition: ease-out 0.2s;
-  
+  scale: 0.9;
+
 }
 
 
@@ -190,7 +191,7 @@ svg {
 }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 560px) {
   .info {
     flex-direction: column-reverse;
     margin: 10%;

@@ -22,7 +22,6 @@ a {
     color: rgb(54, 56, 58);
     text-decoration: none;
     transition: 0.4s;
-    
 }
 
 li:hover {
@@ -39,11 +38,15 @@ li:hover {
 h1 {
     font-size: 26px;
     letter-spacing: 3px;
+    scale: 0.9;
+
 }
 
 .nav-list {
     display: flex;
     list-style: none;
+    scale: 0.85;
+
 }
 
 .nav-list li {

@@ -1,7 +1,7 @@
 .all {
     display: flex;
     justify-content: center;
-    
+    scale: 0.8;
 }
 
 
@@ -10,6 +10,7 @@
     justify-content: center;
     width: 60%;
     font-family: 'Poppins', sans-serif;
+    width: 70%;
 }
 
 .aboutme {
@@ -27,7 +28,7 @@
 }
 
 .summary {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: rgb(80, 79, 79);
     
     word-break: break-word;
@@ -58,7 +59,7 @@
 
 
 .image img {
-    width:450px;
+    width:410px;
     height: 370px;
     border-radius: 20px;
     
@@ -66,7 +67,7 @@
 
 .personalinfo {
     display: flex;
-    
+    column-gap: 5%;
 }
 
 .personalinfochild {
@@ -227,7 +228,7 @@
     
    }
 
-  @media(max-width: 768px) {
+  @media(max-width: 769px) {
     .cards div {
         margin-left: 2%;
         
@@ -246,7 +247,7 @@
     }
   }
 
-   @media(max-width: 425px) {
+   @media(max-width: 560px) {
     .personalinfo {
         flex-direction: column;
         margin-top: -10vh;
@@ -268,6 +269,7 @@
 
     .cards div {
         margin-left: 2%;
+
     }
 
     
@@ -286,36 +288,8 @@
     
    }
 
-   @media(max-width: 425px) {
-    .personalinfochild {
-        margin-left: 6%;
-        width: 70vw;
-    }
-
-    .cards {
-        display: flex;
-        flex-direction: column;
-        transform: translate(10%);
-        height: 320px;
-        
-    }
-
-    .cards div {
-        margin-left: 0%;
-        font-size: .8rem;
-        word-break: break-word;
-        width: 240px;
-        margin-bottom: 10px;
-    }
-    .number {
-        font-size: 1.2rem;
-        margin-top: 5px;
-    }
-    
-    
-   }
-
-   @media(max-width: 375px) {
+   
+   @media(max-width: 426px) {
     .personalinfochild {
         margin-left: 6%;
         width: 70vw;
@@ -333,7 +307,7 @@
         margin-left: 3%;
         font-size: .8rem;
         word-break: break-word;
-        width: 200px;
+        width: 230px;
         margin-bottom: 10px;
         margin-left: 0;
     }
@@ -349,6 +323,21 @@
     
    }
 
+   
+   @media(max-width: 376px) {
+    .svgaward1 {
+        margin-left: 22vw;
+    }
+
+    .cards {
+            
+            transform: translate(5%);
+    
+    
+        }
+        
+   }
+
    @media(max-width: 320px) {
     .svgaward1 {
         margin-left: 22vw;
@@ -359,5 +348,8 @@
             transform: translate(5%);
     
     
+        }
+        .cards div {
+            width: 200px;
         }
    }

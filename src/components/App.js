@@ -16,7 +16,7 @@ import "../css/Navbar.css"
 export const ThemeContext = createContext(null);
 
 function App() {
-  
+
   const [isActive, setIsActive] = useState(false);
  
 

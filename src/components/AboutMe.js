@@ -110,7 +110,7 @@ export default function AboutMe() {
                 </svg>
               </div>
               <div className="companies" data-aos="flip-left">
-                <span className="number">01</span> Company worked
+                <span className="number">02</span> Companies worked
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"

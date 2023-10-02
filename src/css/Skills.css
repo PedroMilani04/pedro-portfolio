@@ -1,6 +1,8 @@
 .skillaround {
     padding: 10vh 0;
     font-family: 'Poppins', sans-serif;
+    scale: 0.9;
+
 }
 
 .skillscolunas {
@@ -60,7 +62,7 @@
 }
 
 .skillcsspercentage {
-    width: 70%;
+    width: 90%;
 }
 
 .skilljspercentage {
@@ -68,7 +70,7 @@
 }
 
 .skillreactpercentage {
-    width: 75%;
+    width: 85%;
 }
 
 .skillpythonpercentage {
@@ -107,7 +109,7 @@
     width: 95%;
 }
 
-@media(max-width: 425px) {
+@media(max-width: 560px) {
     .skillscolunas {
         
         display: flex;

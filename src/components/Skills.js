@@ -33,7 +33,7 @@ export default function Skills() {
             <div className="skill">
               <div className="skilltitle">
                 <h3 className="skillname">CSS3</h3>
-                <span className="percentage">Intermediate</span>
+                <span className="percentage">Advanced</span>
               </div>
               <div className="percbar">
                 <span className="skillperc skillcsspercentage"></span>
@@ -51,7 +51,7 @@ export default function Skills() {
             <div className="skill">
               <div className="skilltitle">
                 <h3 className="skillname">ReactJS</h3>
-                <span className="percentage">Intermediate</span>
+                <span className="percentage">Advanced</span>
               </div>
               <div className="percbar">
                 <span className="skillperc skillreactpercentage"></span>

@@ -6,6 +6,8 @@
  .portfoliocontainer {
     padding: 10vh 0;
     font-family: 'Poppins', sans-serif;
+    scale: 0.85;
+
  }
  
 .portfolioback {
@@ -191,7 +193,7 @@
      }
    }
 
-   @media(max-width: 425px) {
+   @media(max-width: 560px) {
     .portfolio_content {
         display: grid;
         margin-left: 5%;
